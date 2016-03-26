@@ -1,0 +1,19 @@
+html,body {font-family: "Lucida Console", Monaco, monospace;
+color: #00CC00; background: #000000; text-align: center;
+vertical-align: center; width: 100%; height: 100%; margin: 0;
+overflow: hidden;
+cursor: url(.png),auto;}
+
+.blink {animation: blink 2s ease infinite; opacity: 0;}
+@keyframes blink {50% {opacity: 0.5;}}
+
+#console,#buttons,#statusBar {width: 100%;}
+#console {height: 80%; padding: 5px; overflow: hidden;}
+#buttons {height: 10%;}
+.button {width: 24%; height: 100%; vertical-align: center;
+border: 1px solid #00CC00; float: left; margin: 5px;}
+.button:hover {background: #00CC00; color: #000000;}
+.denied:hover {background: #CC0000 !important; border-color: #CC0000;}
+.button:active {background: #CCCCCC !important; border-color: #CCCCCC !important;}
+
+#statusBar {width: 10%;}
